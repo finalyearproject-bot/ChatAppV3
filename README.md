@@ -116,6 +116,3 @@ The core Java logic lives in **`app/src/main/java/com/example/chatapp/`**:
 * **`send_message`** : Acts as a blind relay. It saves the entire dictionary payload (including ciphertext, headers, PQ KEM encapsulations, and ratchet public keys) to MongoDB without modification, and routes it to the receiver in real time.
 * **`message_read`** : Updates message statuses to read and triggers read-receipt updates (blue ticks).
 
-```
-
-```
