@@ -15,7 +15,7 @@ socketio = SocketIO(app, cors_allowed_origins="*", async_mode="threading")
 
 # --- DATABASE CONNECTION ---
 #  In a real production app, put this in Render Environment Variables!
-MONGO_URI = "mongodb+srv://Intership:rohan2004@cluster0.6rqtgnz.mongodb.net/"
+MONGO_URI = "" # Mongo DB URL
 client = MongoClient(MONGO_URI, tlsCAFile=certifi.where())
 db = client.chat_database
 
